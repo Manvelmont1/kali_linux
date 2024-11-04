@@ -1,0 +1,38 @@
+┌──(root㉿kali)-[/home/kali]
+└─# /home/kali/Desktop
+                                                                                                                         
+┌──(root㉿kali)-[/home/kali/Desktop]
+└─# mkdir scripts_linux                     
+                                                                                                                         
+┌──(root㉿kali)-[/home/kali/Desktop]
+└─# cd scripts_linux                                   
+                                                                                                                         
+┌──(root㉿kali)-[/home/kali/Desktop/scripts_linux]
+└─# vi nota                                                  
+                                                                                                                         
+┌──(root㉿kali)-[/home/kali/Desktop/scripts_linux]
+└─# cat nota        
+---Aprendiendo Linux---
+                                                                                                                         
+┌──(root㉿kali)-[/home/kali/Desktop/scripts_linux]
+└─# vi nota
+                                                                                                                         
+┌──(root㉿kali)-[/home/kali/Desktop/scripts_linux]
+└─# cp nota copia_nota 
+                                                                                                                         
+┌──(root㉿kali)-[/home/kali/Desktop/scripts_linux]
+└─# cat copia_nota    
+---Aprendiendo Linux---
+                                                                                                                         
+┌──(root㉿kali)-[/home/kali/Desktop/scripts_linux]
+└─# mkdir backup 
+
+┌──(root㉿kali)-[/home/kali/Desktop/scripts_linux]
+└─# mv copia_nota backup/                                                                                                                       
+                                                                                                                         
+┌──(root㉿kali)-[/home/kali/Desktop/scripts_linux]
+└─# /home/kali/Desktop/scripts_linux/backup
+                                                                                                                         
+┌──(root㉿kali)-[/home/kali/Desktop/scripts_linux/backup]
+└─# cat copia_nota
+---Aprendiendo Linux---
