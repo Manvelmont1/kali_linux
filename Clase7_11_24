@@ -1,0 +1,20 @@
+// cd .. : Retroceder en la direccion del archivo
+┌──(root㉿kali)-[/home/kali]
+└─# cd ..        
+
+┌──(root㉿kali)-[/home]
+└─# cd ..
+
+// ls : Listar los contenidos del directorio o carpeta seleccionada.
+┌──(root㉿kali)-[/]
+└─# ls   
+bin   dev  home        initrd.img.old  lib32  lost+found  mnt  practica_linux  root  sbin         srv  tmp      usr  vmlinuz
+boot  etc  initrd.img  lib             lib64  media       opt  proc            run   shell_linux  sys  trabajo  var  vmlinuz.old
+
+// cd "nombreContenido": Seleccionar uno de los contenidos del directorio
+┌──(root㉿kali)-[/]
+└─# cd etc
+
+// Listar el contenido de etc:
+┌──(root㉿kali)-[/etc]
+└─# ls
