@@ -1,0 +1,22 @@
+┌──(root㉿kali)-[/home/kali/Desktop]
+└─# /home/kali/Desktop/E_S                 
+                                                                                                                         
+┌──(root㉿kali)-[/home/kali/Desktop/E_S]
+└─# uname -a
+Linux kali 6.8.11-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.8.11-1kali2 (2024-05-30) x86_64 GNU/Linux
+
+// Redirigir salida de uname -a a info_sistemas.txt:
+┌──(root㉿kali)-[/home/kali/Desktop/E_S]
+└─# uname -a > info_sistema.txt
+
+// Mostrar contenido de info_sistema en terminal:
+┌──(root㉿kali)-[/home/kali/Desktop/E_S]
+└─# cat info_sistema.txt
+Linux kali 6.8.11-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.8.11-1kali2 (2024-05-30) x86_64 GNU/Linux
+
+//Agregar salida de df -h al final de info_sistema:
+┌──(root㉿kali)-[/home/kali/Desktop/E_S]
+└─# df -h >> info_sistema.txt
+                                                                                                                         
+┌──(root㉿kali)-[/home/kali/Desktop/E_S]
+└─# cat info_sistema.txt    
