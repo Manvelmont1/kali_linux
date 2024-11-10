@@ -1,0 +1,20 @@
+// Uso de espacio en disco por directorio:
+#Directorios en /home/kali:
+┌──(root㉿kali)-[/home/kali]
+└─# du -h --max-depth=1
+
+#Directorios en /home/kali/desktop:
+┌──(root㉿kali)-[/home/kali/Desktop]
+└─# du -h --max-depth=1
+
+// Lista de sistemas de archivos montados:
+# Con uso de espacio en disco:
+┌──(root㉿kali)-[/home/kali]
+└─# df -h
+# Lista detallada con sus puntos de montaje:
+┌──(root㉿kali)-[/home/kali]
+└─# mount
+
+
+
+
