@@ -1,0 +1,16 @@
+// Mostrar el uso de memoria en formato legible:
+┌──(root㉿kali)-[/home/kali]
+└─# free -h
+               total        used        free      shared  buff/cache   available
+Mem:           1.9Gi       1.1Gi       331Mi        17Mi       689Mi       856Mi
+Swap:          1.0Gi          0B       1.0Gi
+
+
+// Mostrar info detallada del uso del swap:
+┌──(root㉿kali)-[/home/kali]
+└─# swapon -s 
+Filename                                Type            Size            Used            Priority
+/swapfile  
+
+
+
